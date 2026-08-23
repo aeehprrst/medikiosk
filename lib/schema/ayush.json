@@ -1,0 +1,172 @@
+[
+  {
+    "id": "ay_prakriti",
+    "section": "dashavidha_pariksha",
+    "text_en": "How would you describe your body's basic nature?",
+    "text_localized": "आपकी शारीरिक बनावट कैसी है?",
+    "ui_type": "multi_choice",
+    "options": [
+      { "value": "vata", "label_en": "Thin build, quick movements, dry skin", "label_localized": "पतला शरीर, तेज़ चाल, रूखी त्वचा", "icon": "wind" },
+      { "value": "pitta", "label_en": "Medium build, warm body, sharp appetite", "label_localized": "मध्यम शरीर, गर्म शरीर, तेज़ भूख", "icon": "flame" },
+      { "value": "kapha", "label_en": "Heavy build, calm nature, oily skin", "label_localized": "भारी शरीर, शांत स्वभाव, तैलीय त्वचा", "icon": "droplet" }
+    ],
+    "allow_voice": false,
+    "allow_skip": true
+  },
+  {
+    "id": "ay_vikriti",
+    "section": "dashavidha_pariksha",
+    "text_en": "What feels different or out of balance right now?",
+    "text_localized": "अभी क्या बदला हुआ या असंतुलित महसूस होता है?",
+    "ui_type": "multi_choice",
+    "options": [
+      { "value": "vata", "label_en": "Gas, dryness, irregularity", "label_localized": "गैस, रूखापन, अनियमितता", "icon": "wind" },
+      { "value": "pitta", "label_en": "Acidity, heat, irritability", "label_localized": "एसिडिटी, गर्मी, चिड़चिड़ापन", "icon": "flame" },
+      { "value": "kapha", "label_en": "Heaviness, mucus, sluggishness", "label_localized": "भारीपन, कफ, सुस्ती", "icon": "droplet" }
+    ],
+    "allow_voice": false,
+    "allow_skip": true
+  },
+  {
+    "id": "ay_sara",
+    "section": "dashavidha_pariksha",
+    "text_en": "How would you rate your body's overall strength and vitality?",
+    "text_localized": "आपके शरीर की मज़बूती कैसी है?",
+    "ui_type": "single_choice",
+    "options": [
+      { "value": "strong", "label_en": "Strong", "label_localized": "मज़बूत", "icon": "battery" },
+      { "value": "average", "label_en": "Average", "label_localized": "सामान्य", "icon": "battery-medium" },
+      { "value": "weak", "label_en": "Weak", "label_localized": "कमज़ोर", "icon": "battery-low" }
+    ],
+    "allow_voice": false,
+    "allow_skip": true
+  },
+  {
+    "id": "ay_samhanana",
+    "section": "dashavidha_pariksha",
+    "text_en": "How is your body's physical build (compactness and proportion)?",
+    "text_localized": "आपके शरीर की बनावट (गठन) कैसी है?",
+    "ui_type": "single_choice",
+    "options": [
+      { "value": "compact", "label_en": "Compact / well-proportioned", "label_localized": "सुडौल/संतुलित", "icon": "square" },
+      { "value": "medium", "label_en": "Medium", "label_localized": "मध्यम", "icon": "circle" },
+      { "value": "loose", "label_en": "Loose / unproportioned", "label_localized": "ढीला/असंतुलित", "icon": "octagon" }
+    ],
+    "allow_voice": false,
+    "allow_skip": true
+  },
+  {
+    "id": "ay_pramana",
+    "section": "dashavidha_pariksha",
+    "text_en": "How would you describe your overall body size?",
+    "text_localized": "आपके शरीर का आकार कैसा है?",
+    "ui_type": "single_choice",
+    "options": [
+      { "value": "small", "label_en": "Small / petite", "label_localized": "छोटा/दुबला", "icon": "arrow-down-circle" },
+      { "value": "medium", "label_en": "Medium", "label_localized": "मध्यम", "icon": "minus-circle" },
+      { "value": "large", "label_en": "Large / tall", "label_localized": "बड़ा/लंबा", "icon": "arrow-up-circle" }
+    ],
+    "allow_voice": false,
+    "allow_skip": true
+  },
+  {
+    "id": "ay_satmya",
+    "section": "dashavidha_pariksha",
+    "text_en": "What kind of food suits you best?",
+    "text_localized": "आपको किस तरह का खाना सहन होता है?",
+    "ui_type": "single_choice",
+    "options": [
+      { "value": "spicy_fine", "label_en": "Spicy food suits me fine", "label_localized": "मसालेदार खाना ठीक लगता है", "icon": "flame" },
+      { "value": "bland_only", "label_en": "Only bland food suits me", "label_localized": "सादा खाना ही सहन होता है", "icon": "leaf" },
+      { "value": "mixed", "label_en": "Mixed, depends on the day", "label_localized": "मिश्रित, दिन के हिसाब से", "icon": "shuffle" }
+    ],
+    "allow_voice": false,
+    "allow_skip": true
+  },
+  {
+    "id": "ay_sattva",
+    "section": "dashavidha_pariksha",
+    "text_en": "How would you describe your mental steadiness?",
+    "text_localized": "आपकी मानसिक स्थिति कैसी है?",
+    "ui_type": "single_choice",
+    "options": [
+      { "value": "steady", "label_en": "Calm and steady", "label_localized": "शांत और स्थिर", "icon": "smile" },
+      { "value": "sometimes_disturbed", "label_en": "Sometimes disturbed", "label_localized": "कभी-कभी अशांत", "icon": "meh" },
+      { "value": "easily_disturbed", "label_en": "Easily disturbed", "label_localized": "जल्दी अशांत हो जाता है", "icon": "frown" }
+    ],
+    "allow_voice": false,
+    "allow_skip": true
+  },
+  {
+    "id": "ay_ahara_shakti",
+    "section": "dashavidha_pariksha",
+    "text_en": "How is your appetite?",
+    "text_localized": "आपकी भूख कैसी रहती है?",
+    "ui_type": "single_choice",
+    "options": [
+      { "value": "strong", "label_en": "Strong", "label_localized": "तेज़ भूख", "icon": "flame" },
+      { "value": "moderate", "label_en": "Moderate", "label_localized": "सामान्य भूख", "icon": "circle" },
+      { "value": "poor", "label_en": "Poor", "label_localized": "कम भूख", "icon": "battery-low" },
+      { "value": "irregular", "label_en": "Irregular — sometimes strong, sometimes poor", "label_localized": "कभी तेज़ कभी कम", "icon": "shuffle" }
+    ],
+    "allow_voice": false,
+    "allow_skip": true
+  },
+  {
+    "id": "ay_vyayama_shakti",
+    "section": "dashavidha_pariksha",
+    "text_en": "How much physical activity or exercise can your body handle?",
+    "text_localized": "आपका शरीर कितनी शारीरिक मेहनत सह सकता है?",
+    "ui_type": "single_choice",
+    "options": [
+      { "value": "high", "label_en": "High", "label_localized": "ज़्यादा", "icon": "zap" },
+      { "value": "moderate", "label_en": "Moderate", "label_localized": "सामान्य", "icon": "activity" },
+      { "value": "low", "label_en": "Low", "label_localized": "कम", "icon": "battery-low" }
+    ],
+    "allow_voice": false,
+    "allow_skip": true
+  },
+  {
+    "id": "ay_vaya",
+    "section": "dashavidha_pariksha",
+    "text_en": "Which life stage would you place yourself in?",
+    "text_localized": "आप अपने आप को किस आयु-अवस्था में मानते हैं?",
+    "ui_type": "single_choice",
+    "options": [
+      { "value": "bala", "label_en": "Young (Bala) — growth phase", "label_localized": "युवा (बाल अवस्था)", "icon": "sprout" },
+      { "value": "madhyama", "label_en": "Middle age (Madhyama)", "label_localized": "मध्यम आयु (मध्यम अवस्था)", "icon": "user" },
+      { "value": "vriddha", "label_en": "Elderly (Vriddha)", "label_localized": "वृद्ध अवस्था", "icon": "users" }
+    ],
+    "allow_voice": false,
+    "allow_skip": true
+  },
+  {
+    "id": "ay_agni",
+    "section": "agni",
+    "text_en": "How does your digestion usually work?",
+    "text_localized": "आपका खाना आमतौर पर कैसे पचता है?",
+    "ui_type": "single_choice",
+    "options": [
+      { "value": "tikshna", "label_en": "Fast / sharp digestion", "label_localized": "तेज़ पाचन", "icon": "flame" },
+      { "value": "sama", "label_en": "Normal, regular digestion", "label_localized": "ठीक/सामान्य पाचन", "icon": "check" },
+      { "value": "manda", "label_en": "Slow digestion, heaviness", "label_localized": "धीमा पाचन, भारीपन", "icon": "battery-low" },
+      { "value": "vishama", "label_en": "Irregular — sometimes fast, sometimes slow", "label_localized": "कभी तेज़ कभी धीमा", "icon": "shuffle" }
+    ],
+    "allow_voice": false,
+    "allow_skip": true
+  },
+  {
+    "id": "ay_koshtha",
+    "section": "koshtha",
+    "text_en": "How regular are your bowel movements?",
+    "text_localized": "आपका पेट रोज़ कैसे साफ़ होता है?",
+    "ui_type": "single_choice",
+    "options": [
+      { "value": "mridu", "label_en": "Easily, every day", "label_localized": "रोज़ आसानी से", "icon": "check" },
+      { "value": "madhyama", "label_en": "Sometimes with difficulty", "label_localized": "कभी-कभी मुश्किल से", "icon": "meh" },
+      { "value": "krura", "label_en": "Often very difficult", "label_localized": "अक्सर बहुत मुश्किल", "icon": "frown" }
+    ],
+    "allow_voice": false,
+    "allow_skip": true
+  }
+]

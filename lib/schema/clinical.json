@@ -1,0 +1,371 @@
+[
+  {
+    "id": "demographics_accompanied_by",
+    "section": "demographics",
+    "text_en": "Have you come alone today, or is someone with you?",
+    "text_localized": "आज आप अकेले आए हैं, या कोई आपके साथ है?",
+    "ui_type": "single_choice",
+    "options": [
+      { "value": "alone", "label_en": "Alone", "label_localized": "अकेला/अकेली", "icon": "user" },
+      { "value": "with_family", "label_en": "With family", "label_localized": "परिवार के साथ", "icon": "users" },
+      { "value": "with_caregiver", "label_en": "With a caregiver", "label_localized": "देखभाल करने वाले के साथ", "icon": "user-plus" }
+    ],
+    "allow_voice": true,
+    "allow_skip": true
+  },
+  {
+    "id": "cc_open",
+    "section": "chief_complaint",
+    "text_en": "What is troubling you? Please take your time and tell me in your own words.",
+    "text_localized": "आपको क्या तकलीफ़ है? आराम से अपने शब्दों में बताइए।",
+    "ui_type": "voice_open",
+    "options": [
+      { "value": "pain", "label_en": "Pain", "label_localized": "दर्द", "icon": "zap" },
+      { "value": "fever", "label_en": "Fever", "label_localized": "बुखार", "icon": "thermometer" },
+      { "value": "cough", "label_en": "Cough", "label_localized": "खांसी", "icon": "wind" },
+      { "value": "vomiting", "label_en": "Vomiting", "label_localized": "उल्टी", "icon": "frown" },
+      { "value": "something_else", "label_en": "Something else", "label_localized": "कुछ और", "icon": "plus" }
+    ],
+    "allow_voice": true,
+    "allow_skip": false
+  },
+  {
+    "id": "hpi_site",
+    "section": "hpi",
+    "text_en": "Where does it hurt or bother you? You can point on the body, or tell me.",
+    "text_localized": "कहाँ दर्द है या तकलीफ़ है? शरीर पर दिखाइए या बताइए।",
+    "ui_type": "body_map",
+    "options": [
+      { "value": "head", "label_en": "Head", "label_localized": "सिर", "icon": "brain" },
+      { "value": "chest", "label_en": "Chest", "label_localized": "सीना", "icon": "heart" },
+      { "value": "abdomen", "label_en": "Abdomen", "label_localized": "पेट", "icon": "circle" },
+      { "value": "back", "label_en": "Back", "label_localized": "पीठ", "icon": "move" },
+      { "value": "arm", "label_en": "Arm", "label_localized": "हाथ", "icon": "hand" },
+      { "value": "leg", "label_en": "Leg", "label_localized": "पैर", "icon": "footprints" },
+      { "value": "other", "label_en": "Somewhere else", "label_localized": "कुछ और जगह", "icon": "help-circle" }
+    ],
+    "allow_voice": true,
+    "allow_skip": false
+  },
+  {
+    "id": "hpi_onset",
+    "section": "hpi",
+    "text_en": "How long has this been going on?",
+    "text_localized": "यह कब से हो रहा है?",
+    "ui_type": "single_choice",
+    "options": [
+      { "value": "today", "label_en": "Today", "label_localized": "आज", "icon": "sunrise" },
+      { "value": "this_week", "label_en": "This week", "label_localized": "इस हफ़्ते", "icon": "calendar" },
+      { "value": "this_month", "label_en": "This month", "label_localized": "इस महीने", "icon": "calendar-days" },
+      { "value": "longer", "label_en": "Longer than a month", "label_localized": "एक महीने से ज़्यादा", "icon": "calendar-clock" }
+    ],
+    "allow_voice": true,
+    "allow_skip": false
+  },
+  {
+    "id": "hpi_character",
+    "section": "hpi",
+    "text_en": "What does it feel like?",
+    "text_localized": "यह कैसा महसूस होता है?",
+    "ui_type": "single_choice",
+    "options": [
+      { "value": "pressure", "label_en": "Pressure-like", "label_localized": "दबाव जैसा", "icon": "gauge" },
+      { "value": "burning", "label_en": "Burning", "label_localized": "जलन", "icon": "flame" },
+      { "value": "sharp", "label_en": "Sharp / stabbing", "label_localized": "चुभन", "icon": "zap" },
+      { "value": "dull_ache", "label_en": "Dull ache", "label_localized": "हल्का दर्द", "icon": "cloud" },
+      { "value": "other", "label_en": "Something else", "label_localized": "कुछ और", "icon": "help-circle" }
+    ],
+    "allow_voice": true,
+    "allow_skip": false
+  },
+  {
+    "id": "hpi_radiation",
+    "section": "hpi",
+    "text_en": "Does it spread anywhere else?",
+    "text_localized": "क्या यह कहीं और भी जाता है?",
+    "ui_type": "single_choice",
+    "options": [
+      { "value": "left_arm", "label_en": "Left arm", "label_localized": "बाएँ हाथ में", "icon": "arrow-up-left" },
+      { "value": "jaw", "label_en": "Jaw", "label_localized": "जबड़े में", "icon": "arrow-up" },
+      { "value": "back", "label_en": "Back", "label_localized": "पीठ में", "icon": "arrow-left" },
+      { "value": "none", "label_en": "No", "label_localized": "नहीं", "icon": "x" }
+    ],
+    "allow_voice": true,
+    "allow_skip": false
+  },
+  {
+    "id": "hpi_associations",
+    "section": "hpi",
+    "text_en": "Do you have any of these along with it?",
+    "text_localized": "क्या इसके साथ इनमें से कुछ होता है?",
+    "ui_type": "multi_choice",
+    "options": [
+      { "value": "sweating", "label_en": "Sweating", "label_localized": "पसीना", "icon": "droplets" },
+      { "value": "nausea", "label_en": "Nausea", "label_localized": "जी मिचलाना", "icon": "frown" },
+      { "value": "breathlessness", "label_en": "Breathlessness", "label_localized": "साँस फूलना", "icon": "wind" },
+      { "value": "dizziness", "label_en": "Dizziness", "label_localized": "चक्कर", "icon": "refresh-cw" },
+      { "value": "none", "label_en": "None", "label_localized": "कुछ नहीं", "icon": "x" }
+    ],
+    "allow_voice": true,
+    "allow_skip": false
+  },
+  {
+    "id": "hpi_timecourse",
+    "section": "hpi",
+    "text_en": "When is it worse?",
+    "text_localized": "यह कब ज़्यादा होता है?",
+    "ui_type": "single_choice",
+    "options": [
+      { "value": "morning", "label_en": "Morning", "label_localized": "सुबह", "icon": "sunrise" },
+      { "value": "daytime", "label_en": "Daytime", "label_localized": "दिन में", "icon": "sun" },
+      { "value": "night", "label_en": "Night", "label_localized": "रात में", "icon": "moon" },
+      { "value": "always", "label_en": "All the time", "label_localized": "हमेशा", "icon": "clock" }
+    ],
+    "allow_voice": true,
+    "allow_skip": false
+  },
+  {
+    "id": "hpi_exacerbating",
+    "section": "hpi",
+    "text_en": "What makes it worse?",
+    "text_localized": "किन चीज़ों से यह बढ़ता है?",
+    "ui_type": "multi_choice",
+    "options": [
+      { "value": "walking", "label_en": "Walking", "label_localized": "चलने पर", "icon": "footprints" },
+      { "value": "exertion", "label_en": "Physical exertion", "label_localized": "मेहनत करने पर", "icon": "activity" },
+      { "value": "rest", "label_en": "Resting", "label_localized": "आराम करने पर", "icon": "bed" },
+      { "value": "eating", "label_en": "Eating", "label_localized": "खाने पर", "icon": "utensils" },
+      { "value": "none", "label_en": "Nothing particular", "label_localized": "कुछ खास नहीं", "icon": "x" }
+    ],
+    "allow_voice": true,
+    "allow_skip": false
+  },
+  {
+    "id": "hpi_severity",
+    "section": "hpi",
+    "text_en": "How bad is it, from 1 to 10?",
+    "text_localized": "यह कितना तेज़ है, 1 से 10 तक?",
+    "ui_type": "scale",
+    "options": [
+      { "value": "1", "label_en": "1", "label_localized": "1", "icon": "smile-plus" },
+      { "value": "2", "label_en": "2", "label_localized": "2", "icon": "smile-plus" },
+      { "value": "3", "label_en": "3", "label_localized": "3", "icon": "smile" },
+      { "value": "4", "label_en": "4", "label_localized": "4", "icon": "smile" },
+      { "value": "5", "label_en": "5", "label_localized": "5", "icon": "meh" },
+      { "value": "6", "label_en": "6", "label_localized": "6", "icon": "meh" },
+      { "value": "7", "label_en": "7", "label_localized": "7", "icon": "frown" },
+      { "value": "8", "label_en": "8", "label_localized": "8", "icon": "frown" },
+      { "value": "9", "label_en": "9", "label_localized": "9", "icon": "angry" },
+      { "value": "10", "label_en": "10", "label_localized": "10", "icon": "angry" }
+    ],
+    "allow_voice": false,
+    "allow_skip": false
+  },
+  {
+    "id": "pmh_conditions",
+    "section": "past_medical",
+    "text_en": "Do you have any of these ongoing health conditions?",
+    "text_localized": "क्या आपको इनमें से कोई बीमारी है?",
+    "ui_type": "multi_choice",
+    "options": [
+      { "value": "hypertension", "label_en": "High blood pressure", "label_localized": "ब्लड प्रेशर", "icon": "heart-pulse" },
+      { "value": "diabetes", "label_en": "Diabetes", "label_localized": "शुगर/डायबिटीज़", "icon": "droplet" },
+      { "value": "heart_disease", "label_en": "Heart disease", "label_localized": "दिल की बीमारी", "icon": "heart" },
+      { "value": "asthma", "label_en": "Asthma / breathing problem", "label_localized": "दमा/साँस की बीमारी", "icon": "wind" },
+      { "value": "thyroid", "label_en": "Thyroid problem", "label_localized": "थायरॉइड", "icon": "activity" },
+      { "value": "none", "label_en": "None", "label_localized": "कोई नहीं", "icon": "x" }
+    ],
+    "allow_voice": true,
+    "allow_skip": true
+  },
+  {
+    "id": "pmh_hospitalization",
+    "section": "past_medical",
+    "text_en": "Have you ever been admitted to a hospital or had surgery?",
+    "text_localized": "क्या आप कभी अस्पताल में भर्ती हुए हैं या कोई ऑपरेशन हुआ है?",
+    "ui_type": "yes_no",
+    "options": [
+      { "value": "yes", "label_en": "Yes", "label_localized": "हाँ", "icon": "check" },
+      { "value": "no", "label_en": "No", "label_localized": "नहीं", "icon": "x" }
+    ],
+    "allow_voice": false,
+    "allow_skip": true
+  },
+  {
+    "id": "drug_current",
+    "section": "drug_history",
+    "text_en": "Are you currently taking any medicines?",
+    "text_localized": "क्या आप अभी कोई दवा ले रहे हैं?",
+    "ui_type": "multi_choice",
+    "options": [
+      { "value": "yes_daily", "label_en": "Yes, daily", "label_localized": "हाँ, रोज़", "icon": "pill" },
+      { "value": "yes_occasional", "label_en": "Yes, sometimes", "label_localized": "हाँ, कभी-कभी", "icon": "pill" },
+      { "value": "otc", "label_en": "Over-the-counter / from a shop", "label_localized": "दुकान से खुद ली दवा", "icon": "shopping-bag" },
+      { "value": "none", "label_en": "No medicines", "label_localized": "कोई दवा नहीं", "icon": "x" }
+    ],
+    "allow_voice": true,
+    "allow_skip": false
+  },
+  {
+    "id": "drug_duration",
+    "section": "drug_history",
+    "text_en": "How long have you been taking it?",
+    "text_localized": "आप यह दवा कब से ले रहे हैं?",
+    "ui_type": "single_choice",
+    "options": [
+      { "value": "less_month", "label_en": "Less than a month", "label_localized": "एक महीने से कम", "icon": "calendar" },
+      { "value": "few_months", "label_en": "A few months", "label_localized": "कुछ महीनों से", "icon": "calendar-days" },
+      { "value": "over_year", "label_en": "Over a year", "label_localized": "एक साल से ज़्यादा", "icon": "calendar-clock" },
+      { "value": "not_sure", "label_en": "Not sure", "label_localized": "पता नहीं", "icon": "help-circle" }
+    ],
+    "allow_voice": false,
+    "allow_skip": true
+  },
+  {
+    "id": "allergy_known",
+    "section": "allergies",
+    "text_en": "Are you allergic to any medicine or food?",
+    "text_localized": "क्या आपको किसी दवा या खाने से एलर्जी है?",
+    "ui_type": "yes_no",
+    "options": [
+      { "value": "yes", "label_en": "Yes", "label_localized": "हाँ", "icon": "check" },
+      { "value": "no", "label_en": "No", "label_localized": "नहीं", "icon": "x" }
+    ],
+    "allow_voice": false,
+    "allow_skip": false
+  },
+  {
+    "id": "allergy_reaction_type",
+    "section": "allergies",
+    "text_en": "What happens when you have a reaction?",
+    "text_localized": "एलर्जी होने पर क्या होता है?",
+    "ui_type": "multi_choice",
+    "options": [
+      { "value": "rash", "label_en": "Skin rash", "label_localized": "त्वचा पर दाने", "icon": "sparkles" },
+      { "value": "swelling", "label_en": "Swelling", "label_localized": "सूजन", "icon": "circle-dot" },
+      { "value": "breathing_difficulty", "label_en": "Difficulty breathing", "label_localized": "साँस लेने में तकलीफ़", "icon": "wind" },
+      { "value": "not_sure", "label_en": "Not sure", "label_localized": "पता नहीं", "icon": "help-circle" }
+    ],
+    "allow_voice": true,
+    "allow_skip": true
+  },
+  {
+    "id": "family_conditions",
+    "section": "family_history",
+    "text_en": "Has anyone in your immediate family had these conditions?",
+    "text_localized": "क्या आपके परिवार में किसी को इनमें से कोई बीमारी हुई है?",
+    "ui_type": "multi_choice",
+    "options": [
+      { "value": "heart_disease", "label_en": "Heart disease", "label_localized": "दिल की बीमारी", "icon": "heart" },
+      { "value": "diabetes", "label_en": "Diabetes", "label_localized": "शुगर/डायबिटीज़", "icon": "droplet" },
+      { "value": "hypertension", "label_en": "High blood pressure", "label_localized": "ब्लड प्रेशर", "icon": "heart-pulse" },
+      { "value": "cancer", "label_en": "Cancer", "label_localized": "कैंसर", "icon": "ribbon" },
+      { "value": "not_sure", "label_en": "Don't know", "label_localized": "पता नहीं", "icon": "help-circle" },
+      { "value": "none", "label_en": "None", "label_localized": "कोई नहीं", "icon": "x" }
+    ],
+    "allow_voice": true,
+    "allow_skip": true
+  },
+  {
+    "id": "personal_tobacco",
+    "section": "personal_social",
+    "text_en": "Do you use tobacco in any form?",
+    "text_localized": "क्या आप किसी भी रूप में तंबाकू का उपयोग करते हैं?",
+    "ui_type": "single_choice",
+    "options": [
+      { "value": "no", "label_en": "No", "label_localized": "नहीं", "icon": "x" },
+      { "value": "smoking", "label_en": "Smoking", "label_localized": "बीड़ी/सिगरेट", "icon": "cigarette" },
+      { "value": "chewing", "label_en": "Chewing tobacco", "label_localized": "तंबाकू चबाना", "icon": "circle" },
+      { "value": "quit", "label_en": "Quit", "label_localized": "छोड़ दिया", "icon": "check" }
+    ],
+    "allow_voice": false,
+    "allow_skip": false
+  },
+  {
+    "id": "personal_alcohol",
+    "section": "personal_social",
+    "text_en": "Do you drink alcohol?",
+    "text_localized": "क्या आप शराब पीते हैं?",
+    "ui_type": "single_choice",
+    "options": [
+      { "value": "no", "label_en": "No", "label_localized": "नहीं", "icon": "x" },
+      { "value": "occasional", "label_en": "Occasionally", "label_localized": "कभी-कभी", "icon": "wine" },
+      { "value": "regular", "label_en": "Regularly", "label_localized": "नियमित रूप से", "icon": "wine" },
+      { "value": "quit", "label_en": "Quit", "label_localized": "छोड़ दिया", "icon": "check" }
+    ],
+    "allow_voice": false,
+    "allow_skip": true
+  },
+  {
+    "id": "personal_diet",
+    "section": "personal_social",
+    "text_en": "What best describes your diet?",
+    "text_localized": "आपका खान-पान कैसा है?",
+    "ui_type": "single_choice",
+    "options": [
+      { "value": "vegetarian", "label_en": "Vegetarian", "label_localized": "शाकाहारी", "icon": "leaf" },
+      { "value": "non_vegetarian", "label_en": "Non-vegetarian", "label_localized": "मांसाहारी", "icon": "utensils" },
+      { "value": "mixed", "label_en": "Mixed", "label_localized": "मिश्रित", "icon": "shuffle" }
+    ],
+    "allow_voice": false,
+    "allow_skip": true
+  },
+  {
+    "id": "personal_occupation",
+    "section": "personal_social",
+    "text_en": "What kind of work do you do?",
+    "text_localized": "आप क्या काम करते हैं?",
+    "ui_type": "single_choice",
+    "options": [
+      { "value": "manual_labour", "label_en": "Manual labour / farming", "label_localized": "मज़दूरी/खेती", "icon": "hammer" },
+      { "value": "office", "label_en": "Office work", "label_localized": "दफ़्तर का काम", "icon": "briefcase" },
+      { "value": "homemaker", "label_en": "Homemaker", "label_localized": "घर का काम", "icon": "home" },
+      { "value": "retired", "label_en": "Retired / not working", "label_localized": "सेवानिवृत्त/काम नहीं करते", "icon": "armchair" },
+      { "value": "other", "label_en": "Something else", "label_localized": "कुछ और", "icon": "help-circle" }
+    ],
+    "allow_voice": true,
+    "allow_skip": true
+  },
+  {
+    "id": "ros_breathing",
+    "section": "review_of_systems",
+    "text_en": "Do you feel breathless even while sitting still or resting?",
+    "text_localized": "क्या आपको आराम करते समय भी साँस फूलती है?",
+    "ui_type": "yes_no",
+    "options": [
+      { "value": "yes", "label_en": "Yes", "label_localized": "हाँ", "icon": "check" },
+      { "value": "no", "label_en": "No", "label_localized": "नहीं", "icon": "x" }
+    ],
+    "allow_voice": false,
+    "allow_skip": false
+  },
+  {
+    "id": "ros_weight_appetite",
+    "section": "review_of_systems",
+    "text_en": "Have you noticed any of these recently?",
+    "text_localized": "क्या हाल ही में आपने इनमें से कुछ देखा है?",
+    "ui_type": "multi_choice",
+    "options": [
+      { "value": "weight_loss", "label_en": "Unexplained weight loss", "label_localized": "बिना वजह वजन कम होना", "icon": "trending-down" },
+      { "value": "appetite_loss", "label_en": "Loss of appetite", "label_localized": "भूख कम लगना", "icon": "utensils" },
+      { "value": "night_sweats", "label_en": "Night sweats", "label_localized": "रात में पसीना आना", "icon": "droplets" },
+      { "value": "none", "label_en": "None", "label_localized": "कोई नहीं", "icon": "x" }
+    ],
+    "allow_voice": false,
+    "allow_skip": true
+  },
+  {
+    "id": "ros_targeted",
+    "section": "review_of_systems",
+    "text_en": "Any swelling in your feet or legs?",
+    "text_localized": "क्या आपके पैरों में सूजन है?",
+    "ui_type": "multi_choice",
+    "options": [
+      { "value": "yes_feet", "label_en": "Yes, in my feet", "label_localized": "हाँ, पैरों में", "icon": "circle-dot" },
+      { "value": "yes_legs", "label_en": "Yes, up to my legs", "label_localized": "हाँ, टांगों तक", "icon": "circle-dot" },
+      { "value": "none", "label_en": "No swelling", "label_localized": "सूजन नहीं है", "icon": "x" }
+    ],
+    "allow_voice": false,
+    "allow_skip": true
+  }
+]
